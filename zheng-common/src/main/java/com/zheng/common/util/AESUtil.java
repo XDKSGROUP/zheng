@@ -131,7 +131,7 @@ public class AESUtil {
         String[] keys = {
                 "", "123456"
         };
-        System.out.println("key | AESEncode | AESDecode");
+//        System.out.println("key | AESEncode | AESDecode");
         for (String key : keys) {
             System.out.print(key + " | ");
             String encryptString = aesEncode(key);
